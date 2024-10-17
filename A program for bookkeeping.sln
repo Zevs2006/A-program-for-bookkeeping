@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A program for bookkeeping", "A program for bookkeeping\A program for bookkeeping.csproj", "{2382D65E-37E9-4951-80EC-13609037721F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{152C962E-6CB0-4671-BFF6-E845C390725C}"
+	ProjectSection(SolutionItems) = preProject
+		books.json = books.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2382D65E-37E9-4951-80EC-13609037721F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2382D65E-37E9-4951-80EC-13609037721F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2382D65E-37E9-4951-80EC-13609037721F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2382D65E-37E9-4951-80EC-13609037721F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C20CA92-E48C-4212-AFB7-5CE685AB3A23}
+	EndGlobalSection
+EndGlobal

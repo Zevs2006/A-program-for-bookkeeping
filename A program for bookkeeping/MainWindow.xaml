@@ -1,0 +1,31 @@
+﻿<Window x:Class="A_program_for_bookkeeping.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Library" Height="450" Width="800">
+    <Grid>
+        <!-- Кнопка поиска, расположенная вверху -->
+
+        <!-- Поле для фильтрации по заголовку -->
+        <TextBox x:Name="TitleFilterTextBox" Width="200" Height="30" 
+                 Margin="138,10,462,394" 
+                 Background="Red" Foreground="White" FontSize="14"
+                 Text="Filter by Title"
+                 GotFocus="RemovePlaceholderText" LostFocus="AddPlaceholderText" 
+                 Panel.ZIndex="1" />
+
+        <!-- Поле для фильтрации по автору -->
+        <TextBox x:Name="AuthorFilterTextBox" Width="200" Height="30" 
+                 Margin="365,10,235,394" 
+                 Background="Red" Foreground="White" FontSize="14"
+                 Text="Filter by Author"
+                 GotFocus="RemovePlaceholderText" LostFocus="AddPlaceholderText" 
+                 Panel.ZIndex="1" />
+
+        <!-- DataGrid для отображения книг, расположенный ниже кнопок и полей -->
+        <DataGrid x:Name="BooksDataGrid" Margin="10,50,10,10" AutoGenerateColumns="True" />
+        <Button x:Name="SearchButton" Content="Search" 
+                Click="SearchButton_Click" Width="100" Height="30" 
+                Margin="10,10,690,394" 
+                Panel.ZIndex="2" />
+    </Grid>
+</Window>
